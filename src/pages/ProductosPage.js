@@ -23,6 +23,12 @@ const ProductosPage = (props) =>{
     return(
         <main className="holder">
             <h2>Productos</h2>
+            <div className='producto'>
+                <p>Producto</p>
+                <p>Precio</p>
+                <p>Categoría</p>
+                <p>Imagen</p>
+            </div>
             {
                 loading ? (<p>Cargando...</p>):(
                     productos.map(item => <ProductoItem key={item.id} nombre={item.nombre} precio={item.precio} imagen={item.imagen} categoria={item.nombre_categoria} body={item.body}/>)

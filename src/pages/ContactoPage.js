@@ -44,18 +44,18 @@ const ContactoPage = (props) =>{
                 <form className="formulario" action="/contacto" method="post" onSubmit={handleSubmit}>
                     <p>
                         <label for="nombre">Nombre y apellido:</label>
-                        <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} placeholder="Ingrese su nombre"/>
+                        <input className='dato' type="text" name="nombre" value={formData.nombre} onChange={handleChange} placeholder="Ingrese su nombre"/>
                     </p>
                     <p>
                         <label for="email">Correo electrónico:</label>
-                        <input type="text" name="email" value={formData.email} onChange={handleChange} placeholder='Ingrese su correo electrónico'/>
+                        <input className='dato' type="text" name="email" value={formData.email} onChange={handleChange} placeholder='Ingrese su correo electrónico'/>
                     </p>
                     <p>
                         <label for="telefono">Teléfono:</label>
-                        <input type="tel" name="telefono" id="telefono" value={formData.telefono} onChange={handleChange} placeholder="+54 (11) 15 1234-5678"/>
+                        <input className='dato' type="tel" name="telefono" id="telefono" value={formData.telefono} onChange={handleChange} placeholder="+54 (11) 15 1234-5678"/>
                     </p>
                         <label for="mensaje">Cuéntenos más:</label>
-                        <textarea name="mensaje" id="mensaje" value={formData.mensaje} onChange={handleChange} placeholder="Ingrese aquí el motivo de su contacto"></textarea>
+                        <textarea className='dato' name="mensaje" id="mensaje" value={formData.mensaje} onChange={handleChange} placeholder="Ingrese aquí el motivo de su contacto"></textarea>
                     <p>
                         <input type="submit" value="Enviar"/>
                     </p>

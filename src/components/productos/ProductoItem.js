@@ -4,13 +4,12 @@ const ProductoItem = (props) => {
     const { nombre, precio, categoria, imagen, body } = props;
 
     return(
-        <div className='productos'>
+        <div className='producto'>
             <h1>{nombre}</h1>
             <p>$ {precio}</p>
             <p>{categoria}</p>
-            <img src={imagen} alt='' width={30} height={30} />
-            <div dangerouslySetInnerHTML={{ __html:body}}/>
-            <hr />
+            <img src={imagen} alt='' width={120} height={120} />
+            <div className='nodisplay' dangerouslySetInnerHTML={{ __html:body}}/>
         </div>
     );
 }

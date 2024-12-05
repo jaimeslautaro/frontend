@@ -1,12 +1,24 @@
+.nodisplay{
+    display: none;
+}
+
 .producto{
     border: 1px solid #ccc;
     border-radius: 1px;
     padding: 16px;
     margin: 16px 0;
     display: flex;
-    gap: 32px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.producto h1, .producto p, .producto img{
+    font-size: 19px;
+    max-width: 20%;
+}
+
+.producto p{
+    font-size: 18px;
 }
 
 .producto .info h4{
