@@ -82,7 +82,7 @@ const ContactoPage = (props) =>{
             </section>
         </div>
         <div className="mapa">
-            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.565620601521!2d-58.37209545893945!3d-34.608943930821866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadb57fd1e5f%3A0xcc737c4eb0a8614b!2sPlaza%20de%20Mayo!5e0!3m2!1ses-419!2sar!4v1725219920142!5m2!1ses-419!2sar" width="800" height="175" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1952.565620601521!2d-58.37209545893945!3d-34.608943930821866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadb57fd1e5f%3A0xcc737c4eb0a8614b!2sPlaza%20de%20Mayo!5e0!3m2!1ses-419!2sar!4v1725219920142!5m2!1ses-419!2sar" width="800" height="175" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
         </div>
     </main>
     );
