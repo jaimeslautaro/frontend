@@ -1,0 +1,13 @@
+header{
+    background-color: blanchedalmond;
+    padding: 6px 0;
+}
+
+header h1{
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
